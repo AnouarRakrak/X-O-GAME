@@ -33,6 +33,8 @@ while a==True: # to make the game in loop
         if form[0] == form[1] == form[2] == "X":
             print("Player 1 Wins !!!")
             a=False # if true break the while loop
+    if a==False:
+        break
     
     player_2_Input=input("enter you are the O (to surrender type << done >>) : ")# to get the choose of player two
     
@@ -56,3 +58,5 @@ while a==True: # to make the game in loop
         if form[0] == form[1] == form[2] == "O":# to check if the condition form elements in all like the sign
             print("Player 2 Wins !!!")
             a=False # if true break the while loop
+    if a==False:
+        break
